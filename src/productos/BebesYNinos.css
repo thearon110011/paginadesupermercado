@@ -1,0 +1,84 @@
+/* Página Bebés y Niños */
+.bebes-ninos-page {
+  background-color: #fce4ec; /* Fondo rosado suave */
+  padding-top: 100px;
+}
+
+.bebes-ninos-page h1 {
+  font-size: 2.5rem;
+  color: #d81b60; /* Rosado oscuro */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.bebes-ninos-page p {
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Tarjetas de productos */
+.product-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card img {
+  width: 100%; /* Imagen ocupa todo el ancho */
+  height: 200px; /* Altura fija para todas las imágenes */
+  object-fit: cover; /* Ajusta la imagen sin distorsión */
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.product-card h5 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 15px;
+}
+
+.product-card button {
+  background-color: #d81b60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.product-card button:hover {
+  background-color: #ad1457;
+  transform: scale(1.05);
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .bebes-ninos-page h1 {
+    font-size: 2rem;
+  }
+
+  .product-card {
+    margin-bottom: 20px;
+  }
+
+  .product-card img {
+    height: 150px; /* Reduce la altura para pantallas más pequeñas */
+  }
+}

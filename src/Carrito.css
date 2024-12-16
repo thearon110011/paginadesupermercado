@@ -1,0 +1,51 @@
+.carrito-page {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 2.5rem;
+  }
+  
+  .cart-table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-table th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+  }
+  
+  .cart-table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+  }
+  
+  .cart-summary {
+    text-align: right;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-summary h4 {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  button {
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  
